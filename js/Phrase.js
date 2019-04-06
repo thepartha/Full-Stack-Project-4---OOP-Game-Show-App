@@ -4,7 +4,7 @@
 
  class Phrase{
     constructor(phrase){
-        this.phrase = phrase;
+        this.phrase = phrase.toLowerCase();
     }   
 
     //CREATE PHRASE HTML AND ADD IT TO DOM
